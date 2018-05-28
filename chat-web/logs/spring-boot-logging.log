@@ -1,0 +1,805 @@
+2018-05-28 14:19:51.149  INFO 3064 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 3064 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 14:19:51.151  INFO 3064 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 14:19:54.986  INFO 3064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 14:19:54.989  INFO 3064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 14:19:55.174  INFO 3064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 14:19:55.857  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 14:19:56.569  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 14:19:56.575  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 14:19:58.498  INFO 3064 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 14:50:10.028  INFO 3064 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-05-28 14:50:10.029  INFO 3064 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-05-28 14:50:10.041  INFO 3064 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-05-28 14:50:10.439  INFO 3064 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 3064 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 14:50:10.439  INFO 3064 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 14:50:11.817  INFO 3064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 14:50:11.818  INFO 3064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 14:50:11.899  INFO 3064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 14:50:12.095  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-05-28 14:50:12.551  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-05-28 14:50:12.576  INFO 3064 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-05-28 14:50:13.383  INFO 3064 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 14:50:13.388  INFO 3064 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 14:50:13.396  INFO 3064 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 14:50:13.412  INFO 3064 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 3.057 seconds (JVM running for 1823.553)
+2018-05-28 14:50:22.896  INFO 3064 --- [http-nio-8088-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 14:50:33.869  WARN 3064 --- [http-nio-8088-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uemail': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uemail': was expecting ('true', 'false' or 'null')
+ at [Source: java.io.PushbackInputStream@8b0f767; line: 1, column: 8]
+2018-05-28 14:50:33.870  WARN 3064 --- [http-nio-8088-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uemail': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uemail': was expecting ('true', 'false' or 'null')
+ at [Source: java.io.PushbackInputStream@8b0f767; line: 1, column: 8]
+2018-05-28 14:52:34.372  WARN 3064 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3ae10585; line: 1, column: 20]
+2018-05-28 14:52:34.372  WARN 3064 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3ae10585; line: 1, column: 20]
+2018-05-28 14:54:42.517  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 636 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 14:54:42.518  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 14:54:46.772  INFO 636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 14:54:46.775  INFO 636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 14:54:47.037  INFO 636 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 14:54:47.715  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 14:54:48.418  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 14:54:48.424  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 14:54:50.455  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 14:54:52.553  INFO 636 --- [http-nio-8088-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 14:54:57.810  WARN 636 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3add9b52; line: 1, column: 20]
+2018-05-28 14:54:57.811  WARN 636 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3add9b52; line: 1, column: 20]
+2018-05-28 14:56:05.595  WARN 636 --- [http-nio-8088-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@6f4e0a5c; line: 1, column: 20]
+2018-05-28 14:56:05.595  WARN 636 --- [http-nio-8088-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@6f4e0a5c; line: 1, column: 20]
+2018-05-28 14:56:26.032  WARN 636 --- [http-nio-8088-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3d620085; line: 1, column: 20]
+2018-05-28 14:56:26.033  WARN 636 --- [http-nio-8088-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@3d620085; line: 1, column: 20]
+2018-05-28 15:01:30.607  INFO 636 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-05-28 15:01:30.611  INFO 636 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-05-28 15:01:30.616  INFO 636 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-05-28 15:01:30.972  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 636 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:01:30.981  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:01:32.115  INFO 636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:01:32.116  INFO 636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:01:32.148  INFO 636 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:01:32.300  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-05-28 15:01:32.788  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-05-28 15:01:32.800  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-05-28 15:01:33.388  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:01:33.394  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 15:01:33.406  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 15:01:33.410  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 2.51 seconds (JVM running for 412.151)
+2018-05-28 15:01:46.459  INFO 636 --- [http-nio-8088-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 15:01:58.490  WARN 636 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@17470bba; line: 1, column: 20]
+2018-05-28 15:01:58.491  WARN 636 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@17470bba; line: 1, column: 20]
+2018-05-28 15:07:09.834  INFO 636 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2018-05-28 15:07:09.836  INFO 636 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2018-05-28 15:07:09.839  INFO 636 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2018-05-28 15:07:10.447  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 636 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:07:10.447  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:07:11.669  INFO 636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:07:11.670  INFO 636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:07:11.729  INFO 636 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:07:11.915  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2018-05-28 15:07:12.915  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2018-05-28 15:07:12.924  INFO 636 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2018-05-28 15:07:13.498  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:07:13.503  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 15:07:13.516  INFO 636 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 15:07:13.517  INFO 636 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 3.129 seconds (JVM running for 752.257)
+2018-05-28 15:07:27.833  INFO 636 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 15:08:28.416 ERROR 636 --- [http-nio-8088-exec-1] com.wys.chats.util.SysLog                : com.wys.chats.user.controller.UserController.getMVCode(125)获取邮箱验证码:---java.lang.NullPointerException
+2018-05-28 15:25:29.023  INFO 6292 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 6292 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:25:29.025  INFO 6292 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:25:36.443  INFO 6292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:25:36.444  INFO 6292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:25:37.397  INFO 6292 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:25:38.689  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 15:25:39.662  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 15:25:39.693  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 15:25:42.762  INFO 6292 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:26:03.228  INFO 6292 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 15:27:00.411 ERROR 6292 --- [http-nio-8088-exec-8] com.wys.chats.util.SysLog                : com.wys.chats.user.controller.UserController.getMVCode(125)获取邮箱验证码:---java.lang.NullPointerException
+2018-05-28 15:27:11.281 ERROR 6292 --- [http-nio-8088-exec-2] com.wys.chats.util.SysLog                : com.wys.chats.user.controller.UserController.getMVCode(125)获取邮箱验证码:---java.lang.NullPointerException
+2018-05-28 15:28:37.901 ERROR 6292 --- [http-nio-8088-exec-4] com.wys.chats.util.SysLog                : com.wys.chats.user.controller.UserController.getMVCode(125)获取邮箱验证码:---java.lang.NullPointerException
+2018-05-28 15:29:06.578 ERROR 6292 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.user.controller.UserController.getMVCode(125)获取邮箱验证码:---java.lang.NullPointerException
+2018-05-28 15:35:08.223  INFO 6292 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-05-28 15:35:08.227  INFO 6292 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-05-28 15:35:08.297  INFO 6292 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-05-28 15:35:16.311  INFO 6292 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 6292 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:35:16.311  INFO 6292 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:35:17.613  INFO 6292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:35:17.614  INFO 6292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:35:17.651  INFO 6292 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:35:17.909  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-05-28 15:35:18.463  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-05-28 15:35:18.518  INFO 6292 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-05-28 15:35:19.494  INFO 6292 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:35:19.503  INFO 6292 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 15:35:19.519  INFO 6292 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 15:35:19.523  INFO 6292 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 3.27 seconds (JVM running for 594.624)
+2018-05-28 15:35:51.550  INFO 5908 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5908 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:35:51.551  INFO 5908 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:35:54.947  INFO 5908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:35:54.949  INFO 5908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:35:55.234  INFO 5908 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:35:56.022  INFO 5908 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 15:35:56.870  INFO 5908 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 15:35:56.878  INFO 5908 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 15:35:58.787  INFO 5908 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:36:35.394  INFO 5908 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 15:39:14.976  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5108 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 15:39:14.979  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 15:39:19.035  INFO 5108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 15:39:19.038  INFO 5108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 15:39:19.291  INFO 5108 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 15:39:20.122  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 15:39:20.850  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 15:39:20.863  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 15:39:23.039  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 15:39:38.700  INFO 5108 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 16:06:40.481  INFO 5108 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-05-28 16:06:40.482  INFO 5108 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-05-28 16:06:40.490  INFO 5108 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-05-28 16:06:42.410  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5108 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 16:06:42.411  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 16:06:58.140  INFO 5108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 16:06:58.141  INFO 5108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 16:06:58.185  INFO 5108 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 16:06:58.435  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-05-28 16:06:58.976  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-05-28 16:06:58.986  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-05-28 16:07:00.036  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 16:07:00.043  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 16:07:00.062  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 16:07:00.066  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 17.758 seconds (JVM running for 1666.606)
+2018-05-28 16:07:37.156  INFO 5108 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2018-05-28 16:07:37.157  INFO 5108 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2018-05-28 16:07:37.161  INFO 5108 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2018-05-28 16:07:37.698  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5108 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 16:07:37.699  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 16:07:47.137  INFO 5108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 16:07:47.138  INFO 5108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 16:07:47.177  INFO 5108 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 16:07:47.336  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2018-05-28 16:07:47.753  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2018-05-28 16:07:47.760  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2018-05-28 16:07:48.357  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 16:07:48.360  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 16:07:48.408  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 16:07:48.411  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 10.781 seconds (JVM running for 1714.95)
+2018-05-28 16:07:50.441  INFO 5108 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 16:14:12.028  INFO 5108 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closed
+2018-05-28 16:14:12.036  INFO 5108 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2018-05-28 16:14:12.048  INFO 5108 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2018-05-28 16:14:12.559  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5108 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 16:14:12.560  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 16:14:13.486  INFO 5108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 16:14:13.487  INFO 5108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 16:14:13.667  INFO 5108 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 16:14:13.837  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2018-05-28 16:14:14.192  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} inited
+2018-05-28 16:14:14.200  INFO 5108 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} inited
+2018-05-28 16:14:14.686  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 16:14:14.688  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 16:14:14.704  INFO 5108 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 16:14:14.706  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 2.22 seconds (JVM running for 2101.245)
+2018-05-28 16:25:44.686  INFO 5108 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 16:40:58.890  INFO 5108 --- [http-nio-8088-exec-1] c.wys.chats.util.RandomValidateCodeUtil  : 3416
+2018-05-28 16:40:59.328 ERROR 5108 --- [http-nio-8088-exec-1] c.wys.chats.util.RandomValidateCodeUtil  : 将内存中的图片通过流动形式输出到客户端失败>>>> 
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at javax.imageio.stream.FileCacheImageOutputStream.close(FileCacheImageOutputStream.java:238) ~[na:1.8.0_45]
+	at javax.imageio.ImageIO.write(ImageIO.java:1580) ~[na:1.8.0_45]
+	at com.wys.chats.util.RandomValidateCodeUtil.getRandcode(RandomValidateCodeUtil.java:87) ~[classes/:na]
+	at com.wys.chats.controller.IndexController.getVerify(IndexController.java:37) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:581) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:272) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1511) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:282) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 60 common frames omitted
+
+2018-05-28 16:40:59.330 ERROR 5108 --- [http-nio-8088-exec-1] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 16:46:38.310  INFO 5108 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closed
+2018-05-28 16:46:38.312  INFO 5108 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closed
+2018-05-28 16:46:38.317  INFO 5108 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closed
+2018-05-28 16:46:39.054  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 5108 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 16:46:39.055  INFO 5108 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 16:52:12.983  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 2740 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 16:52:12.987  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 16:52:24.488  INFO 2740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 16:52:24.490  INFO 2740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 16:52:25.068  INFO 2740 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 16:52:27.500  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-05-28 16:52:30.929  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2018-05-28 16:52:30.943  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2018-05-28 16:52:44.112  INFO 2740 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 16:52:47.476  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 17:11:50.395  INFO 2740 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2018-05-28 17:11:50.397  INFO 2740 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2018-05-28 17:11:50.492  INFO 2740 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-05-28 17:11:51.773  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 2740 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 17:11:51.774  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 17:11:54.115  INFO 2740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 17:11:54.116  INFO 2740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 17:11:54.252  INFO 2740 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 17:11:54.374  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2018-05-28 17:11:54.865  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2018-05-28 17:11:54.876  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2018-05-28 17:11:55.697  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 17:11:55.725  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 17:11:55.742  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 17:11:55.745  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 4.131 seconds (JVM running for 1194.115)
+2018-05-28 17:11:56.796  INFO 2740 --- [http-nio-8088-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 17:13:28.178  WARN 2740 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN
+ at [Source: java.io.PushbackInputStream@2e36f5e; line: 1, column: 6]
+2018-05-28 17:13:28.179  WARN 2740 --- [http-nio-8088-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN
+ at [Source: java.io.PushbackInputStream@2e36f5e; line: 1, column: 6]
+2018-05-28 17:15:15.907  INFO 2740 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2018-05-28 17:15:15.910  INFO 2740 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2018-05-28 17:15:15.916  INFO 2740 --- [Thread-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2018-05-28 17:15:16.465  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 2740 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 17:15:16.466  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 17:15:17.671  INFO 2740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 17:15:17.671  INFO 2740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 17:15:17.857  INFO 2740 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 17:15:18.006  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2018-05-28 17:15:18.475  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2018-05-28 17:15:18.486  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2018-05-28 17:15:19.328  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 17:15:19.332  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 17:15:19.334  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 17:15:19.335  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 2.951 seconds (JVM running for 1397.706)
+2018-05-28 17:16:00.306  INFO 2740 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closed
+2018-05-28 17:16:00.313  INFO 2740 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2018-05-28 17:16:00.318  INFO 2740 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2018-05-28 17:16:00.803  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Starting ChatMain on ZQ54EGIFRR0GJS3 with PID 2740 (D:\mygitwork\yc30_git\springBoot-chat\chat-web\target\classes started by Administrator in D:\mygitwork\yc30_git\springBoot-chat\chat-web)
+2018-05-28 17:16:00.804  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : No active profile set, falling back to default profiles: default
+2018-05-28 17:16:01.914  INFO 2740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-28 17:16:01.924  INFO 2740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-05-28 17:16:01.987  INFO 2740 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-28 17:16:02.191  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2018-05-28 17:16:02.583  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} inited
+2018-05-28 17:16:02.599  INFO 2740 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} inited
+2018-05-28 17:16:03.289  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(40)=============websocket服务器启动成功======================6879
+2018-05-28 17:16:03.303  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(44)java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-05-28 17:16:03.326  INFO 2740 --- [restartedMain] com.wys.chats.util.SysLog                : com.wys.chats.ChatMain.run(48)=============服务端 关闭了
+2018-05-28 17:16:03.327  INFO 2740 --- [restartedMain] com.wys.chats.ChatMain                   : Started ChatMain in 2.599 seconds (JVM running for 1441.697)
+2018-05-28 17:16:21.075  INFO 2740 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-28 17:16:21.086  WARN 2740 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN
+ at [Source: java.io.PushbackInputStream@450837b1; line: 1, column: 6]
+2018-05-28 17:16:21.086  WARN 2740 --- [http-nio-8088-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'name': was expecting 'null', 'true', 'false' or NaN
+ at [Source: java.io.PushbackInputStream@450837b1; line: 1, column: 6]
+2018-05-28 17:19:56.753 ERROR 2740 --- [http-nio-8088-exec-9] com.wys.chats.util.SysLog                : com.wys.chats.user.service.impl.TbUserInfoServiceImpl.insert(41)新增service:---org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'image' doesn't have a default value
+### The error may involve com.wys.chats.user.dao.TbUserInfoDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO tb_user_info (   `name`,   `password`,   `email`   )   VALUES(   ?,   ?,   ?   )
+### Cause: java.sql.SQLException: Field 'image' doesn't have a default value
+; SQL []; Field 'image' doesn't have a default value; nested exception is java.sql.SQLException: Field 'image' doesn't have a default value
+2018-05-28 17:21:59.864  INFO 2740 --- [http-nio-8088-exec-9] c.wys.chats.util.RandomValidateCodeUtil  : 8531
+2018-05-28 17:22:00.338 ERROR 2740 --- [http-nio-8088-exec-9] c.wys.chats.util.RandomValidateCodeUtil  : 将内存中的图片通过流动形式输出到客户端失败>>>> 
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at javax.imageio.stream.FileCacheImageOutputStream.close(FileCacheImageOutputStream.java:238) ~[na:1.8.0_45]
+	at javax.imageio.ImageIO.write(ImageIO.java:1580) ~[na:1.8.0_45]
+	at com.wys.chats.util.RandomValidateCodeUtil.getRandcode(RandomValidateCodeUtil.java:87) ~[classes/:na]
+	at com.wys.chats.controller.IndexController.getVerify(IndexController.java:37) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:581) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:272) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1511) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:282) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 60 common frames omitted
+
+2018-05-28 17:22:00.343 ERROR 2740 --- [http-nio-8088-exec-9] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 17:36:35.886  INFO 2740 --- [http-nio-8088-exec-6] c.wys.chats.util.RandomValidateCodeUtil  : 9619
+2018-05-28 17:36:35.893 ERROR 2740 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 17:36:38.610  INFO 2740 --- [http-nio-8088-exec-3] c.wys.chats.util.RandomValidateCodeUtil  : 0002
+2018-05-28 17:36:38.675 ERROR 2740 --- [http-nio-8088-exec-3] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:41:44.213  WARN 2740 --- [http-nio-8088-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [306] milliseconds.
+2018-05-28 20:41:44.802 ERROR 2740 --- [http-nio-8088-exec-5] o.a.c.c.C.[Tomcat].[localhost]           : Exception Processing ErrorPage[errorCode=0, location=/error]
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1054) ~[jackson-core-2.8.9.jar:2.8.9]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:953) ~[jackson-databind-2.8.9.jar:2.8.9]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:286) ~[spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:106) ~[spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:231) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:203) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:81) ~[spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:113) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:395) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:254) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:177) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:581) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:272) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1511) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:282) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 41 common frames omitted
+
+2018-05-28 20:41:45.494  INFO 2740 --- [http-nio-8088-exec-1] c.wys.chats.util.RandomValidateCodeUtil  : 8876
+2018-05-28 20:41:45.494  INFO 2740 --- [http-nio-8088-exec-10] c.wys.chats.util.RandomValidateCodeUtil  : 4575
+2018-05-28 20:41:45.500 ERROR 2740 --- [http-nio-8088-exec-1] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:41:45.624 ERROR 2740 --- [http-nio-8088-exec-10] c.wys.chats.util.RandomValidateCodeUtil  : 将内存中的图片通过流动形式输出到客户端失败>>>> 
+
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at javax.imageio.stream.FileCacheImageOutputStream.close(FileCacheImageOutputStream.java:238) ~[na:1.8.0_45]
+	at javax.imageio.ImageIO.write(ImageIO.java:1580) ~[na:1.8.0_45]
+	at com.wys.chats.util.RandomValidateCodeUtil.getRandcode(RandomValidateCodeUtil.java:87) ~[classes/:na]
+	at com.wys.chats.controller.IndexController.getVerify(IndexController.java:37) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_45]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_45]
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_45]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_45]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_45]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1259) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flushBuffer(Http11OutputBuffer.java:581) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:272) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1511) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:282) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 60 common frames omitted
+
+2018-05-28 20:41:45.682 ERROR 2740 --- [http-nio-8088-exec-10] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:41:47.607  INFO 2740 --- [http-nio-8088-exec-1] c.wys.chats.util.RandomValidateCodeUtil  : 8942
+2018-05-28 20:41:47.614 ERROR 2740 --- [http-nio-8088-exec-1] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:42:17.956  INFO 2740 --- [http-nio-8088-exec-6] c.wys.chats.util.RandomValidateCodeUtil  : 3340
+2018-05-28 20:42:17.960 ERROR 2740 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:43:17.266  INFO 2740 --- [http-nio-8088-exec-7] c.wys.chats.util.RandomValidateCodeUtil  : 7360
+2018-05-28 20:43:17.270 ERROR 2740 --- [http-nio-8088-exec-7] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:43:30.369  INFO 2740 --- [http-nio-8088-exec-9] c.wys.chats.util.RandomValidateCodeUtil  : 7479
+2018-05-28 20:43:30.374 ERROR 2740 --- [http-nio-8088-exec-9] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:43:32.349  INFO 2740 --- [http-nio-8088-exec-6] c.wys.chats.util.RandomValidateCodeUtil  : 0856
+2018-05-28 20:43:32.355 ERROR 2740 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:43:34.696  INFO 2740 --- [http-nio-8088-exec-6] c.wys.chats.util.RandomValidateCodeUtil  : 4149
+2018-05-28 20:43:34.706 ERROR 2740 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:49:21.154  INFO 2740 --- [http-nio-8088-exec-6] c.wys.chats.util.RandomValidateCodeUtil  : 4667
+2018-05-28 20:49:21.159 ERROR 2740 --- [http-nio-8088-exec-6] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
+2018-05-28 20:49:23.146  INFO 2740 --- [http-nio-8088-exec-3] c.wys.chats.util.RandomValidateCodeUtil  : 7825
+2018-05-28 20:49:23.154 ERROR 2740 --- [http-nio-8088-exec-3] com.wys.chats.util.SysLog                : com.wys.chats.controller.IndexController.getVerify(38)获取验证码成功----- 
