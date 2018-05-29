@@ -48,7 +48,7 @@
 	
 	<div class="log"> 
 		<div class="am-g">
-			<div class="am-u-lg-3 am-u-md-6 am-u-sm-8 am-u-sm-centered log-content">
+			<div class="am-u-lg-3 am-u-md-6 am-u-sm-8 am-u-sm-centered log-content"  style="margin-top:100px;">
 				<h1 class="log-title am-animation-slide-top">web chat</h1>
 				
 				<form class="am-form" id="log-form" onsubmit="return false">
@@ -58,6 +58,14 @@
 					<!-- 邮箱 -->
 					<div class="am-input-group am-radius am-animation-slide-left">
 						<input type="email" id="doc-vld-email-2-1" name="uemail" class="am-radius" data-validation-message="请输入正确邮箱地址" placeholder="邮箱" required/>
+						<span class="am-input-group-label log-icon am-radius">
+							<i class="am-icon-user am-icon-sm am-icon-fw"></i>
+						</span>
+					</div>
+					<br>
+					<!-- 用户名 -->
+					<div class="am-input-group am-radius am-animation-slide-left">
+						<input type="text" id="uname" name="uname" class="am-radius" data-validation-message="请输入用户名" placeholder="用户名" maxlength="40" minlength="3" required/>
 						<span class="am-input-group-label log-icon am-radius">
 							<i class="am-icon-user am-icon-sm am-icon-fw"></i>
 						</span>
@@ -116,22 +124,33 @@
 				alert("请输入邮箱号");
 			}else{
 				$.ajax({
-					url:'sendEmail/user',
-					type:'GET',
-					data:{uemail:uemail},
+					url:'/userInfo/getMVCode.do',
+					type:'POST',
+					data:JSON.stringify({"name":uemail}),  
 					contentType:'application/json;charset=UTF-8',
 					success:function(data){
-						random = data;
 						settime();
 					}
 				});
 			}
-	
+			/* 校验验证码 */
 			$("#yzm").focusout(function(){
 				var yzmvalue = $.trim($("#yzm").val());
-				if(yzmvalue !=null && yzmvalue != random){
-					alert("验证码错误,请重新输入");
-					$("#yzm").val("");
+				if(yzmvalue !=null ){
+					$.ajax({
+						url:'/userInfo/checkMVCode.do',
+						type:'POST',
+						data:JSON.stringify({"mvCode":yzmvalue}),  
+						contentType:'application/json;charset=UTF-8',
+						success:function(data){
+							if(data==true){
+								document.getElementById("feedback").innerHTML="";
+							}else{
+								document.getElementById("feedback").innerHTML="验证码错误,请重新输入!";
+								$("#yzm").val("");
+							}
+						}
+					});
 				}
 			});
 		}
@@ -139,7 +158,7 @@
 		<!-- 设置获取验证码事件 -->
 		function settime(){
 			
-			  if(countdown == 0){
+			if(countdown == 0){
 				$("#yzmbutton").removeAttr("disabled");
 				$("#yzmbutton").text("点击获取验证码"); 
 			}else { 
@@ -155,15 +174,28 @@
 		function register(){
 		
 			var uemail=$.trim($("#doc-vld-email-2-1").val());
+			var uname=$.trim($("#uname").val());
 			var upassword=$.trim($("#log-password").val());
 			if(uemail==""){
+				return false;
+			}
+			if(uname==""){
 				return false;
 			}
 			if(upassword==""){
 				return false;
 			}
-			alert("注册成功,请登录...");
-			location.href="login.html"; 
+			
+			$.ajax({
+				url:'/userInfo/register.do',
+				type:'POST',
+				data:JSON.stringify({"email":uemail,"name":uname,"password":upassword}),  
+				contentType:'application/json;charset=UTF-8',
+				success:function(data){
+					
+				}
+			});
+			//location.href="login.html"; 
 			
 			return false;
 		}
